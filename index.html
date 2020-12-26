@@ -1,30 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>health declaration</title>
-        <script src="js/main.js"></script>  
-        <link rel="stylesheet" href="css/main.css"/>
-    </head>
-    <body onload="init()">
-        <header class="header row s-between align-center">
-            <div class="header-section row">
-                <img src="img/israel-logo.gif" class="israel-logo"/>
-                <div class="column">
-                    <p class="header-title-1 fs-12">משרד החינוך</p>
-                    <p class="header-title-2 fs-20">פורטל הורים</p>
-                </div>
-            </div>
-            <div class="header-section row align-center">
-                <p class="user-name fs-12">אמיר גונן</p>
-                <div class="arrow-down"></div>
-                <img src="img/menu.png" class="menu"/>
-            </div>
-        </header>
-        <main class="main-container align-center column">
-        
-        </main>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>health declaration</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body onload="init()">
+    <header class="header row s-between align-center">
+      <div class="header-section row">
+        <img src="img/israel-logo.gif" class="israel-logo" />
+        <div class="column">
+          <p class="header-title-1 fs-12">משרד החינוך</p>
+          <p class="header-title-2 fs-20">פורטל הורים</p>
+        </div>
+      </div>
+      <div class="header-section row align-center">
+        <p class="user-name fs-12">עדי גונן</p>
+        <div class="arrow-down"></div>
+        <img src="img/menu.png" class="menu" />
+      </div>
+    </header>
+    <main class="main-container align-center column">
+      <div class="main-inner">
+        <div class="main-title">
+          <h1 class="main-title-1">הצהרת בריאות דיגיטלית</h1>
+          <p class="main-title-2">
+            הצהרת בריאות יומית עבור תלמידי גני ילדים ובתי ספר.
+          </p>
+          <p class="main-title-3">
+            הצהרת בריאות לתאריך <span class="date"></span>
+          </p>
+        </div>
+        <div class="child-section">
+          <p class="kid-name">תמר גונן</p>
+          <p class="kid-id"><span class="bold">ת.ז:</span>224805663</p>
+          <p class="kid-place"><span class="bold">מוסד:</span>128 אורנית</p>
+          <div class="active-footer row">
+            <img src="img/active.png" class="active-logo" />
+            <p class="declaration-time">
+              מולאה הצהרת בריאות ב<span class="date"></span> בשעה 07:15
+            </p>
+            <img src="img/share.png" class="active-logo" />
+          </div>
+        </div>
+        <div class="child-section inactive">
+          <p class="name-container">
+            <span class="arrow-left">&gt;</span>
+            <span class="kid-name">ערן גונן</span>
+          </p>
+          <p class="kid-id"><span class="bold">ת.ז.:</span>221681828</p>
+          <p class="kid-place"><span class="bold">מוסד.:</span>המתמיד</p>
+          <div class="declaration-container row">
+              <div class="declaration-text">מילוי הצהרת בריאות</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

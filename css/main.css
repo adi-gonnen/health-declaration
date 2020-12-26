@@ -1,65 +1,159 @@
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-html, body, p, span {
-    margin: 0;
+html,
+body,
+p,
+span {
+  margin: 0;
 }
 body {
-    background-color: #ffffff;
-    font-family: Assistant, Arial,sans-serif;
-    direction: rtl;
+  background-color: #ffffff;
+  font-family: Assistant, Arial, sans-serif;
+  direction: rtl;
 }
 .row {
-    display: flex;
+  display: flex;
 }
 .column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+.bold {
+  font-weight: bold;
 }
 .align-center {
-    align-items: center;
+  align-items: center;
 }
 .s-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 .fs-12 {
-    font-size: 12px;
+  font-size: 12px;
 }
 .fs-20 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /* header */
 .header {
-    min-height: 58px;
-    box-shadow: 2px 3px 3px rgba(0,0,0,.2);
-    padding-bottom: 15px;
+  min-height: 58px;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.2);
+  padding-bottom: 15px;
+  margin-bottom: 2px;
 }
 .header-section {
-    margin: 10px 5px;
+  margin: 10px 5px;
 }
 .israel-logo {
-    height: 38px;
+  height: 38px;
 }
 .header-title-1 {
-    line-height: 12px;
+  line-height: 12px;
 }
 .header-title-2 {
-    line-height: 20px;
+  line-height: 20px;
 }
 .arrow-down {
-    width: 0; 
-    height: 0; 
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;    
-    border-top: 5px solid #007bff;
-    margin: 0 3px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #007bff;
+  margin: 0 3px;
 }
 .user-name {
-    color: #007bff;
+  color: #007bff;
 }
 .menu {
-    width: 30px;
+  width: 30px;
 }
-  
+
+/* main */
+.main-container {
+  background-color: #f5f5f5;
+}
+.main-inner {
+  background-color: #fff;
+  margin: 0 15px;
+}
+.main-title-1 {
+  font-size: 31px;
+  color: #621d51;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+.main-title-2 {
+  font-size: 17px;
+  color: #333333;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+.main-title-3 {
+  font-size: 23px;
+  color: #621d51;
+  padding: 0 7px;
+}
+.child-section {
+  margin: 20px 7px 0 7px;
+  padding: 0 8px;
+  background-color: #f5f5f5;
+}
+.kid-name {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-right: 7px;
+  margin-bottom: 5px;
+}
+.kid-id {
+  padding-right: 7px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.kid-place {
+  padding-right: 7px;
+  margin-bottom: 5px;
+}
+.active-footer {
+  max-width: 227px;
+  padding-bottom: 20px;
+}
+.active-logo {
+  height: 32px;
+}
+.declaration-time {
+  font-size: 14px;
+  margin: 0 10px;
+}
+.inactive {
+  padding: 0;
+}
+.inactive .kid-name {
+  padding-right: 2px;
+}
+.inactive .kid-id {
+  padding-right: 20px;
+}
+.inactive .kid-place {
+  padding-right: 20px;
+}
+.name-container {
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+.arrow-left {
+  font-weight: bold;
+  padding-right: 8px;
+}
+.declaration-container {
+    justify-content: flex-end;
+}
+.declaration-text {
+    background-color: #1c517b;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 15px;
+    border-radius: 6px;
+}
