@@ -80,7 +80,7 @@ body {
 .main-title-1 {
   font-size: 31px;
   color: #621d51;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 40px;
   margin-bottom: 10px;
   padding: 0 20px;
@@ -92,7 +92,7 @@ body {
   padding: 0 20px;
 }
 .main-title-3 {
-  font-size: 23px;
+  font-size: 22px;
   color: #621d51;
   padding: 0 7px;
 }
@@ -117,7 +117,7 @@ body {
   margin-bottom: 5px;
 }
 .active-footer {
-  max-width: 227px;
+  max-width: 235px;
   padding-bottom: 20px;
 }
 .active-logo {
